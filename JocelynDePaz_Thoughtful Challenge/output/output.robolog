@@ -1,0 +1,1522 @@
+V 0.0.4
+T 2024-08-30T06:41:56.966+00:00
+ID 1|f398fda1-669a-11ef-9a80-b00c7aefc323
+I "sys.platform=win32"
+I "python=3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:34:57) [MSC v.1936 64 bit (AMD64)]"
+M a:"tasks.py"
+SR a|0.01
+M c:"Collect tasks"
+M d:"setup"
+M e:""
+P b:c|d|e|e|0
+ST b|0.011
+M f:"regular"
+M g:"\nCollecting tasks from: tasks.py\n"
+C f|g|0.012
+M h:"stderr"
+M i:"2024-08-30 00:42:02,973 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.\n"
+C h|i|6.008
+M k:"Aljazeera.__init__"
+M l:"Aljazeera"
+M m:"c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\Aljazeera.py"
+P j:k|l|m|e|22
+M n:"METHOD"
+SE j|n|7.91
+M p:"CustomSelenium.__init__"
+M q:"CustomSelenium"
+M r:"c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\CustomSelenium.py"
+P o:p|q|r|e|9
+SE o|n|7.91
+M s:"PASS"
+EE n|s|7.91
+M u:"Files.__init__"
+M v:"RPA.Excel.Files"
+M w:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\RPA\\Excel\\Files.py"
+P t:u|v|w|e|180
+SE t|n|7.91
+EE n|s|7.911
+M y:"HTTP.__init__"
+M z:"RPA.HTTP"
+M A:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\RPA\\HTTP.py"
+P x:y|z|A|e|91
+SE x|n|7.911
+M B:"args"
+M C:"tuple"
+M D:"()"
+EA B|C|D
+M E:"kwargs"
+M F:"dict"
+M G:"{}"
+EA E|F|G
+EE n|s|7.911
+EE n|s|7.911
+ET s|e|7.911
+M I:"process_news"
+M J:"tasks"
+M K:"c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\tasks.py"
+M L:"\n    Main task that processes the news by configuring, searching, filtering, and saving to Excel.\n    "
+P H:I|J|K|L|16
+ST H|7.912
+M M:"============================ "
+C f|M|7.912
+M N:"Running: "
+C f|N|7.912
+M O:"task_name"
+C O|I|7.912
+M P:" =============================\n"
+C f|P|7.913
+SE H|n|7.914
+M R:"for item in workitems.inputs"
+P Q:R|J|K|e|21
+M S:"FOR"
+SE Q|S|7.914
+M U:"Step: for item in workitems.inputs"
+P T:U|J|K|e|21
+M V:"FOR_STEP"
+SE T|V|7.92
+M W:"item"
+M X:"Input"
+M Y:"Input[id=0,payload={\"search_phrase\": \"Million\",  ... y\": \"Date\", \"max_results\": 3},files=[],state=None,saved=True]"
+EA W|X|Y
+M 0:"WorkItem.payload"
+M 1:"robocorp.workitems._workitem"
+M 2:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\workitems\\_workitem.py"
+P Z:0|1|2|e|53
+SE Z|n|7.921
+P 3:0|1|2|e|55
+M 4:"{'search_phrase': 'Million', 'sort_by': 'Date', 'max_results': 3}"
+R 3|F|4|7.921
+EE n|s|7.921
+P 5:I|J|K|e|24
+M 6:"search_phrase"
+M 7:"str"
+M 8:"'Million'"
+AS 5|6|7|8|7.921
+SE Z|n|7.921
+R 3|F|4|7.921
+EE n|s|7.921
+P 9:I|J|K|e|25
+M aa:"max_results"
+M ab:"int"
+M ac:"3"
+AS 9|aa|ab|ac|7.921
+SE Z|n|7.922
+R 3|F|4|7.922
+EE n|s|7.922
+P ad:I|J|K|e|26
+M ae:"sort_by"
+M af:"'Date'"
+AS ad|ae|7|af|7.922
+M ah:"Aljazeera.configure"
+P ag:ah|l|m|e|30
+SE ag|n|7.923
+EA 6|7|8
+EA aa|ab|ac
+EA ae|7|af
+M ai:"2024-08-30 00:42:04,888 - root - INFO - Configured scraper with search_phrase: 'Million' and max_results: 3\n"
+C h|ai|7.923
+EE n|s|7.923
+M ak:"Aljazeera.open_site"
+P aj:ak|l|m|e|36
+SE aj|n|7.923
+M am:"CustomSelenium.set_webdriver"
+P al:am|q|r|e|26
+SE al|n|7.923
+M an:"browser"
+M ao:"'Chrome'"
+EA an|7|ao
+M aq:"CustomSelenium.set_chrome_options"
+P ap:aq|q|r|e|13
+SE ap|n|7.924
+M as:"ChromiumOptions.__init__"
+M at:"selenium.webdriver.chromium.options"
+M au:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\chromium\\options.py"
+P ar:as|at|au|e|31
+SE ar|n|7.924
+EE n|s|7.924
+P av:aq|q|r|e|14
+M aw:"options"
+M ax:"Options"
+M ay:"<selenium.webdriver.chrome.options.Options object at 0x00000112D5128C10>"
+AS av|aw|ax|ay|7.924
+M aA:"ArgOptions.add_argument"
+M aB:"selenium.webdriver.common.options"
+M aC:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\common\\options.py"
+P az:aA|aB|aC|e|404
+SE az|n|7.924
+M aD:"argument"
+M aE:"'--headless'"
+EA aD|7|aE
+EE n|s|7.924
+SE az|n|7.924
+M aF:"'--no-sandbox'"
+EA aD|7|aF
+EE n|s|7.925
+SE az|n|7.925
+M aG:"'--disable-extensions'"
+EA aD|7|aG
+EE n|s|7.925
+SE az|n|7.925
+M aH:"'--disable-gpu'"
+EA aD|7|aH
+EE n|s|7.925
+SE az|n|7.925
+M aI:"'--disable-web-security'"
+EA aD|7|aI
+EE n|s|7.925
+SE az|n|7.925
+M aJ:"'--start-maximized'"
+EA aD|7|aJ
+EE n|s|7.926
+SE az|n|7.926
+M aK:"'--remote-debugging-port=9222'"
+EA aD|7|aK
+EE n|s|7.926
+SE az|n|7.926
+M aL:"'--disable-dev-shm-usage'"
+EA aD|7|aL
+EE n|s|7.926
+M aN:"ChromiumOptions.add_experimental_option"
+P aM:aN|at|au|e|122
+SE aM|n|7.926
+M aO:"name"
+M aP:"'excludeSwitches'"
+EA aO|7|aP
+M aQ:"value"
+M aR:"list"
+M aS:"['enable-logging']"
+EA aQ|aR|aS
+EE n|s|7.926
+P aT:aq|q|r|e|24
+R aT|ax|ay|7.927
+EE n|s|7.927
+P aU:am|q|r|e|27
+AS aU|aw|ax|ay|7.927
+M aW:"start"
+M aX:"RPA.core.webdriver"
+M aY:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\RPA\\core\\webdriver.py"
+P aV:aW|aX|aY|e|416
+SE aV|n|7.927
+EA an|7|ao
+M aZ:"service"
+M a0:"NoneType"
+M a1:"None"
+EA aZ|a0|a1
+M a2:"{'options': <selenium.webdriver.chrome.options.Options object at 0x00000112D5128C10>}"
+EA aw|F|a2
+P a3:aW|aX|aY|e|425
+M a4:"WebDriver"
+M a5:"<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f9a572ad5d9b88382863219bb9ef9b5c\")>"
+R a3|a4|a5|9.186
+EE n|s|9.186
+M a7:"WebDriver.set_window_size"
+M a8:"selenium.webdriver.remote.webdriver"
+M a9:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py"
+P a6:a7|a8|a9|e|851
+SE a6|n|9.186
+M ba:"width"
+M bb:"1920"
+EA ba|ab|bb
+M bc:"height"
+M bd:"1080"
+EA bc|ab|bd
+M be:"windowHandle"
+M bf:"'current'"
+EA be|7|bf
+EE n|s|9.213
+EE n|s|9.213
+M bh:"CustomSelenium.open_url"
+P bg:bh|q|r|e|35
+SE bg|n|9.213
+M bi:"url"
+M bj:"'https://www.aljazeera.com/'"
+EA bi|7|bj
+M bk:"screenshot"
+EA bk|a0|a1
+M bm:"WebDriver.get"
+P bl:bm|a8|a9|e|354
+SE bl|n|9.213
+EA bi|7|bj
+EE n|s|36.92
+EE n|s|36.92
+M bn:"2024-08-30 00:42:33,887 - root - INFO - Opened site: https://www.aljazeera.com/\n"
+C h|bn|36.921
+EE n|s|36.922
+M bp:"Aljazeera.initiate_search"
+P bo:bp|l|m|e|63
+SE bo|n|36.922
+M br:"Aljazeera.close_cookie_banner"
+P bq:br|l|m|e|50
+SE bq|n|36.922
+P bs:br|l|m|e|52
+M bt:"cookie_button_selector"
+M bu:"('xpath', \"//button[text()='Allow all']\")"
+AS bs|bt|C|bu|36.922
+M bw:"WebDriverWait.__init__"
+M bx:"selenium.webdriver.support.wait"
+M by:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py"
+P bv:bw|bx|by|e|36
+SE bv|n|36.922
+M bz:"driver"
+EA bz|a4|a5
+M bA:"timeout"
+M bB:"10"
+EA bA|ab|bB
+M bC:"poll_frequency"
+M bD:"float"
+M bE:"0.5"
+EA bC|bD|bE
+M bF:"ignored_exceptions"
+EA bF|a0|a1
+EE n|s|36.923
+M bH:"element_to_be_clickable"
+M bI:"selenium.webdriver.support.expected_conditions"
+M bJ:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py"
+P bG:bH|bI|bJ|e|341
+SE bG|n|36.923
+M bK:"mark"
+EA bK|C|bu
+P bL:bH|bI|bJ|e|361
+M bM:"function"
+M bN:"<function element_to_be_clickable.<locals>._predicate at 0x00000112D5C56A70>"
+R bL|bM|bN|36.923
+EE n|s|36.923
+M bP:"WebDriverWait.until"
+P bO:bP|bx|by|e|77
+SE bO|n|36.923
+M bQ:"method"
+EA bQ|bM|bN
+M bR:"message"
+M bS:"''"
+EA bR|7|bS
+P bT:bP|bx|by|e|94
+M bU:"WebElement"
+M bV:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.23\")>"
+R bT|bU|bV|36.949
+EE n|s|36.949
+P bW:br|l|m|e|53
+M bX:"cookie_button"
+AS bW|bX|bU|bV|36.949
+M bZ:"WebElement.click"
+M b0:"selenium.webdriver.remote.webelement"
+M b1:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py"
+P bY:bZ|b0|b1|e|91
+SE bY|n|36.949
+EE n|s|36.99
+M b2:"2024-08-30 00:42:33,956 - root - INFO - Closed cookie consent banner by clicking 'Allow all'.\n"
+C h|b2|36.99
+EE n|s|36.99
+P b3:bp|l|m|e|67
+M b4:"search_button_selector"
+M b5:"('css selector', 'div.site-header__search-trigger > button.no-styles-button')"
+AS b3|b4|C|b5|36.99
+SE bv|n|36.99
+EA bz|a4|a5
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|36.991
+SE bG|n|36.991
+EA bK|C|b5
+M b6:"<function element_to_be_clickable.<locals>._predicate at 0x00000112D5C56B00>"
+R bL|bM|b6|36.991
+EE n|s|36.991
+SE bO|n|36.991
+EA bQ|bM|b6
+EA bR|7|bS
+M b7:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.24\")>"
+R bT|bU|b7|37.036
+EE n|s|37.036
+P b8:bp|l|m|e|68
+M b9:"search_button"
+AS b8|b9|bU|b7|37.036
+SE bY|n|37.036
+EE n|s|37.101
+M ca:"2024-08-30 00:42:34,067 - root - INFO - Clicked search button\n"
+C h|ca|37.102
+EE n|s|37.102
+M cc:"Aljazeera.search_news"
+P cb:cc|l|m|e|92
+SE cb|n|37.102
+SE bv|n|37.102
+EA bz|a4|a5
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|37.102
+M ce:"visibility_of_element_located"
+P cd:ce|bI|bJ|e|139
+SE cd|n|37.102
+M cf:"locator"
+M cg:"('xpath', \"//div[@class='search-bar__input-container']/input[@class='search-bar__input']\")"
+EA cf|C|cg
+P ch:ce|bI|bJ|e|154
+M ci:"<function visibility_of_element_located.<locals>._predicate at 0x00000112D5C56B00>"
+R ch|bM|ci|37.103
+EE n|s|37.103
+SE bO|n|37.103
+EA bQ|bM|ci
+EA bR|7|bS
+M cj:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.25\")>"
+R bT|bU|cj|37.119
+EE n|s|37.119
+P ck:cc|l|m|e|95
+M cl:"search_box"
+AS ck|cl|bU|cj|37.12
+M cn:"WebElement.clear"
+P cm:cn|b0|b1|e|114
+SE cm|n|37.12
+EE n|s|37.144
+M cp:"WebElement.send_keys"
+P co:cp|b0|b1|e|193
+SE co|n|37.144
+M cq:"('Million',)"
+EA aQ|C|cq
+EE n|s|37.191
+SE co|n|37.192
+M cr:"('\\ue007',)"
+EA aQ|C|cr
+EE n|s|37.458
+P cs:cc|l|m|e|102
+M ct:"add_element"
+M cu:"('class name', 'ads__close-button')"
+AS cs|ct|C|cu|37.458
+SE bv|n|37.458
+EA bz|a4|a5
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|37.46
+SE cd|n|37.46
+EA cf|C|cu
+R ch|bM|ci|37.46
+EE n|s|37.46
+SE bO|n|37.46
+EA bQ|bM|ci
+EA bR|7|bS
+M cv:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.32\")>"
+R bT|bU|cv|38.022
+EE n|s|38.022
+P cw:cc|l|m|e|103
+M cx:"add"
+AS cw|cx|bU|cv|38.022
+SE bY|n|38.022
+EE n|s|38.054
+M cz:"WebDriver.find_element"
+P cy:cz|a8|a9|e|715
+SE cy|n|38.054
+M cA:"by"
+M cB:"'class name'"
+EA cA|7|cB
+M cC:"'container--ads'"
+EA aQ|7|cC
+P cD:cz|a8|a9|e|741
+M cE:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.41\")>"
+R cD|bU|cE|38.062
+EE n|s|38.062
+P cF:cc|l|m|e|108
+M cG:"ads_container"
+AS cF|cG|bU|cE|38.062
+M cI:"WebDriver.execute_script"
+P cH:cI|a8|a9|e|386
+SE cH|n|38.062
+M cJ:"script"
+M cK:"\"arguments[0].style.visibility='hidden'\""
+EA cJ|7|cK
+M cL:"(<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.41\")>,)"
+EA B|C|cL
+P cM:cI|a8|a9|e|407
+R cM|a0|a1|38.067
+EE n|s|38.067
+M cN:"2024-08-30 00:42:35,032 - root - INFO - Ads container hidden.\n"
+C h|cN|38.067
+M cO:"2024-08-30 00:42:35,033 - root - INFO - Searched news with phrase: Million\n"
+C h|cO|38.067
+EE n|s|38.067
+M cQ:"Aljazeera.filter_and_sort_results"
+P cP:cQ|l|m|e|138
+SE cP|n|38.067
+P cR:cQ|l|m|e|140
+M cS:"sort_selector"
+M cT:"('id', 'search-sort-option')"
+AS cR|cS|C|cT|38.068
+SE bv|n|38.068
+EA bz|a4|a5
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|38.068
+SE bG|n|38.068
+EA bK|C|cT
+R bL|bM|b6|38.068
+EE n|s|38.068
+SE bO|n|38.068
+EA bQ|bM|b6
+EA bR|7|bS
+M cU:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.42\")>"
+R bT|bU|cU|38.6
+EE n|s|38.6
+P cV:cQ|l|m|e|141
+M cW:"sort_element"
+AS cV|cW|bU|cU|38.601
+M cY:"Select.__init__"
+M cZ:"selenium.webdriver.support.select"
+M c0:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\support\\select.py"
+P cX:cY|cZ|c0|e|27
+SE cX|n|38.601
+M c1:"webelement"
+EA c1|bU|cU
+EE n|s|38.608
+P c2:cQ|l|m|e|145
+M c3:"select"
+M c4:"Select"
+M c5:"<selenium.webdriver.support.select.Select object at 0x00000112D512A500>"
+AS c2|c3|c4|c5|38.608
+M c7:"Select.select_by_visible_text"
+P c6:c7|cZ|c0|e|102
+SE c6|n|38.609
+M c8:"text"
+EA c8|7|af
+P c9:c7|cZ|c0|e|119
+R c9|a0|a1|38.678
+EE n|s|38.678
+M da:"2024-08-30 00:42:35,644 - root - INFO - Sorted results by date\n"
+C h|da|38.678
+EE n|s|38.679
+M dc:"Aljazeera.load_more_results"
+P db:dc|l|m|e|182
+SE db|n|38.679
+P dd:dc|l|m|e|184
+M de:"total_loaded_results"
+M df:"0"
+AS dd|de|ab|df|38.679
+M dh:"while total_loaded_results < self.max_results"
+P dg:dh|l|m|e|186
+M di:"WHILE"
+SE dg|di|38.68
+M dk:"Step: while total_loaded_results < self.max_results"
+P dj:dk|l|m|e|186
+M dl:"WHILE_STEP"
+SE dj|dl|38.68
+EA de|ab|df
+M dn:"Aljazeera.get_loaded_articles"
+P dm:dn|l|m|e|166
+SE dm|n|38.68
+P do:dn|l|m|e|168
+M dp:"articles_selector"
+M dq:"('class name', 'gc.u-clickable-card')"
+AS do|dp|C|dq|38.68
+SE bv|n|38.68
+EA bz|a4|a5
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|38.68
+SE cd|n|38.68
+EA cf|C|dq
+M dr:"<function visibility_of_element_located.<locals>._predicate at 0x00000112D5C56EF0>"
+R ch|bM|dr|38.68
+EE n|s|38.681
+SE bO|n|38.681
+EA bQ|bM|dr
+EA bR|7|bS
+M ds:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.54\")>"
+R bT|bU|ds|39.748
+EE n|s|39.748
+M du:"WebDriver.find_elements"
+P dt:du|a8|a9|e|743
+SE dt|n|39.748
+EA cA|7|cB
+M dv:"'gc.u-clickable-card'"
+EA aQ|7|dv
+P dw:du|a8|a9|e|771
+M dx:"[<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.54\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.57\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.58\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.59\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.60\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.61\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.62\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.63\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.64\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.65\")>]"
+R dw|aR|dx|39.757
+EE n|s|39.757
+P dy:dn|l|m|e|174
+M dz:"articles"
+AS dy|dz|aR|dx|39.757
+P dA:dn|l|m|e|176
+M dB:"(10, [<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.54\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.57\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.58\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.59\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.60\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.61\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.62\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.63\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.64\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.65\")>])"
+R dA|C|dB|39.757
+EE n|s|39.757
+M dD:"if total_loaded_results >= self.max_results"
+P dC:dD|l|m|e|189
+M dE:"IF_SCOPE"
+SE dC|dE|39.758
+EA de|ab|bB
+P dF:dc|l|m|e|190
+M dG:"BREAK"
+SE dF|dG|39.758
+EE dE|s|39.758
+EE dl|s|39.758
+EE di|s|39.758
+M dH:"2024-08-30 00:42:36,723 - root - INFO - Total articles loaded: 10\n"
+C h|dH|39.758
+EE n|s|39.759
+M dJ:"Aljazeera.extract_latest_news"
+P dI:dJ|l|m|e|223
+SE dI|n|39.759
+P dK:dJ|l|m|e|229
+M dL:"news_data"
+M dM:"[]"
+AS dK|dL|aR|dM|39.759
+P dN:dJ|l|m|e|230
+AS dN|de|ab|df|39.759
+SE dt|n|39.759
+M dO:"'xpath'"
+EA cA|7|dO
+M dP:"\"//article[contains(@class, 'gc u-clickable-card')]\""
+EA aQ|7|dP
+R dw|aR|dx|39.767
+EE n|s|39.767
+P dQ:dJ|l|m|e|232
+AS dQ|dz|aR|dx|39.768
+M dS:"for i in range(len(articles))"
+P dR:dS|l|m|e|235
+SE dR|S|41.772
+M dU:"Step: for i in range(len(articles))"
+P dT:dU|l|m|e|235
+SE dT|V|41.772
+M dV:"i"
+EA dV|ab|df
+SE dt|n|41.772
+EA cA|7|dO
+EA aQ|7|dP
+R dw|aR|dx|41.781
+EE n|s|41.781
+P dW:dJ|l|m|e|240
+M dX:"article"
+AS dW|dX|bU|ds|41.781
+M dZ:"WebElement.find_element"
+P dY:dZ|b0|b1|e|396
+SE dY|n|41.781
+EA cA|7|cB
+M d0:"'u-clickable-card__link'"
+EA aQ|7|d0
+P d1:dZ|b0|b1|e|416
+M d2:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.51\")>"
+R d1|bU|d2|41.791
+EE n|s|41.791
+P d3:dJ|l|m|e|242
+M d4:"title_element"
+AS d3|d4|bU|d2|41.791
+SE cH|n|41.791
+M d5:"\"arguments[0].scrollIntoView({block: 'center'});\""
+EA cJ|7|d5
+M d6:"(<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.51\")>,)"
+EA B|C|d6
+R cM|a0|a1|41.799
+EE n|s|41.799
+M d8:"WebElement.text"
+P d7:d8|b0|b1|e|87
+SE d7|n|42.8
+P d9:d8|b0|b1|e|89
+M ea:"\"Japan's ruling party faces 'generational battle' as it chooses new ...\""
+R d9|7|ea|42.811
+EE n|s|42.811
+P eb:dJ|l|m|e|246
+M ec:"title"
+AS eb|ec|7|ea|42.811
+M ee:"WebElement.get_attribute"
+P ed:ee|b0|b1|e|150
+SE ed|n|42.811
+M ef:"'href'"
+EA aO|7|ef
+P eg:ee|b0|b1|e|180
+M eh:"'https://www.aljazeera.com/news/2024/8/30/japans-ruling-party-faces-generational-battle-as-it-chooses-new-leader'"
+R eg|7|eh|42.82
+EE n|s|42.821
+P ei:dJ|l|m|e|248
+AS ei|bi|7|eh|42.821
+SE dY|n|42.821
+EA cA|7|cB
+M ej:"'screen-reader-text'"
+EA aQ|7|ej
+M ek:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.67\")>"
+R d1|bU|ek|42.829
+EE n|s|42.829
+P el:dJ|l|m|e|251
+M em:"date_element"
+AS el|em|bU|ek|42.829
+SE d7|n|42.829
+M en:"'Published On 30 Aug 2024'"
+R d9|7|en|42.837
+EE n|s|42.837
+P eo:dJ|l|m|e|252
+M ep:"date"
+AS eo|ep|7|en|42.837
+SE dY|n|42.837
+EA cA|7|cB
+M eq:"'gc__excerpt'"
+EA aQ|7|eq
+M er:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.68\")>"
+R d1|bU|er|42.845
+EE n|s|42.845
+P es:dJ|l|m|e|257
+M et:"description_element"
+AS es|et|bU|er|42.845
+SE d7|n|42.846
+M eu:"'4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...'"
+R d9|7|eu|42.851
+EE n|s|42.851
+P ev:dJ|l|m|e|258
+M ew:"description"
+AS ev|ew|7|eu|42.851
+SE bv|n|42.851
+EA bz|bU|ds
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|42.852
+SE cd|n|42.852
+M ex:"('class name', 'gc__image')"
+EA cf|C|ex
+M ey:"<function visibility_of_element_located.<locals>._predicate at 0x00000112D5C56DD0>"
+R ch|bM|ey|42.852
+EE n|s|42.852
+SE bO|n|42.852
+EA bQ|bM|ey
+EA bR|7|bS
+M ez:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.52\")>"
+R bT|bU|ez|42.864
+EE n|s|42.864
+P eA:dJ|l|m|e|264
+M eB:"image_element"
+AS eA|eB|bU|ez|42.864
+SE ed|n|42.866
+M eC:"'src'"
+EA aO|7|eC
+M eD:"'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lUpQwVzDceHqfK15cjOK61afUO20mB47GScQFw5r2yVDbqkSpmMqpPyv&s&resize=770%2C513&quality=80'"
+R eg|7|eD|42.873
+EE n|s|42.873
+P eE:dJ|l|m|e|267
+M eF:"image_url"
+AS eE|eF|7|eD|42.874
+M eH:"Aljazeera.download_image"
+P eG:eH|l|m|e|313
+SE eG|n|42.874
+EA bi|7|eD
+EA ec|7|ea
+P eI:eH|l|m|e|315
+M eJ:"image_name"
+M eK:"'images'"
+AS eI|eJ|7|eK|42.874
+M eL:"2024-08-30 00:42:39,840 - root - INFO - Raw extracted image name: images\n"
+C h|eL|42.874
+M eN:"Aljazeera.sanitize_filename"
+P eM:eN|l|m|e|310
+SE eM|n|42.874
+M eO:"filename"
+M eP:"\"Japan's_ruling_party\""
+EA eO|7|eP
+P eQ:eN|l|m|e|311
+R eQ|7|eP|42.875
+EE n|s|42.875
+P eR:eH|l|m|e|318
+M eS:"sanitized_title"
+AS eR|eS|7|eP|42.875
+P eT:eH|l|m|e|319
+M eU:"\"Japan's_ruling_party.jpg\""
+AS eT|eJ|7|eU|42.875
+P eV:eH|l|m|e|321
+M eW:"image_path"
+M eX:"\"c:\\\\Users\\\\Joss\\\\Desktop\\\\JocelynDePaz_Thoughtful Challenge\\\\output\\\\Japan's_ruling_party.jpg\""
+AS eV|eW|7|eX|42.876
+M eZ:"HTTP.download"
+P eY:eZ|z|A|e|188
+SE eY|n|42.876
+EA bi|7|eD
+M e0:"target_file"
+EA e0|7|eX
+M e1:"verify"
+M e2:"bool"
+M e3:"True"
+EA e1|e2|e3
+M e4:"force_new_session"
+M e5:"False"
+EA e4|e2|e5
+M e6:"overwrite"
+EA e6|e2|e5
+M e7:"stream"
+EA e7|e2|e5
+EA E|F|G
+M e8:"2024-08-30 00:42:39,842 - RPA.HTTP - INFO - Creating a new HTTP session\n"
+C h|e8|42.876
+M e9:"2024-08-30 00:42:39,843 - RobotFramework - INFO - Creating Session using : alias=rpasession_alias.httpsencrypted-tbn0.gstatic.com, url=https://encrypted-tbn0.gstatic.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 \n"
+C h|e9|42.877
+P fa:eZ|z|A|e|260
+M fb:"Response"
+M fc:"<Response [200]>"
+R fa|fb|fc|43.266
+EE n|s|43.266
+M fd:"2024-08-30 00:42:40,233 - root - INFO - Downloaded image: Japan's_ruling_party.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lUpQwVzDceHqfK15cjOK61afUO20mB47GScQFw5r2yVDbqkSpmMqpPyv&s&resize=770%2C513&quality=80\n"
+C h|fd|43.267
+P fe:eH|l|m|e|324
+R fe|7|eU|43.267
+EE n|s|43.267
+P ff:dJ|l|m|e|268
+AS ff|eJ|7|eU|43.267
+P fg:dJ|l|m|e|273
+M fh:"search_phrase_count"
+M fi:"1"
+AS fg|fh|ab|fi|43.267
+M fk:"Aljazeera.check_for_money"
+P fj:fk|l|m|e|334
+SE fj|n|43.268
+M fl:"\"Japan's ruling party faces 'generational battle' as it chooses new ... 4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...\""
+EA c8|7|fl
+P fm:fk|l|m|e|335
+M fn:"money_patterns"
+M fo:"['\\\\$\\\\d+(?:\\\\.\\\\d{1,2})?', '\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+dollars?', '\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+USD', '\u00a3\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?', '\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+pounds?', '\u20ac\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?', '\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+euros?']"
+AS fm|fn|aR|fo|43.268
+M fq:"for pattern in money_patterns"
+P fp:fq|l|m|e|344
+SE fp|S|43.268
+M fs:"Step: for pattern in money_patterns"
+P fr:fs|l|m|e|344
+SE fr|V|43.268
+M ft:"pattern"
+M fu:"'\\\\$\\\\d+(?:\\\\.\\\\d{1,2})?'"
+EA ft|7|fu
+M fw:"if re.search(pattern, text, re.IGNORECASE)"
+P fv:fw|l|m|e|345
+SE fv|dE|43.268
+EA ft|7|fu
+EA c8|7|fl
+M fx:"2024-08-30 00:42:40,234 - root - INFO - Money pattern found in text: Japan's ruling party faces 'generational battle' as it chooses new ... 4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...\n"
+C h|fx|43.269
+P fy:fk|l|m|e|347
+R fy|e2|e3|43.269
+EE dE|s|43.269
+EE V|s|43.269
+EE S|s|43.269
+EE n|s|43.269
+P fz:dJ|l|m|e|275
+M fA:"contains_money"
+AS fz|fA|e2|e3|43.269
+M fB:"2024-08-30 00:42:40,235 - root - INFO - Extracted news: Japan's ruling party faces 'generational battle' as it chooses new ... - Published On 30 Aug 2024 - 4 hours ago ... ... million yen (about $4.15m) in ...\n"
+C h|fB|43.269
+EE V|s|43.27
+SE dT|V|43.27
+EA dV|ab|fi
+SE dt|n|43.27
+EA cA|7|dO
+EA aQ|7|dP
+R dw|aR|dx|43.276
+EE n|s|43.276
+M fC:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.57\")>"
+AS dW|dX|bU|fC|43.276
+SE dY|n|43.276
+EA cA|7|cB
+EA aQ|7|d0
+M fD:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.56\")>"
+R d1|bU|fD|43.282
+EE n|s|43.282
+AS d3|d4|bU|fD|43.282
+SE cH|n|43.282
+EA cJ|7|d5
+M fE:"(<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.56\")>,)"
+EA B|C|fE
+R cM|a0|a1|43.289
+EE n|s|43.289
+SE d7|n|44.292
+M fF:"\"France's Macron defends giving citizenship to Telegram CEO Pavel ...\""
+R d9|7|fF|44.299
+EE n|s|44.3
+AS eb|ec|7|fF|44.3
+SE ed|n|44.3
+EA aO|7|ef
+M fG:"'https://www.aljazeera.com/economy/2024/8/30/frances-macron-defends-giving-citizenship-to-telegram-ceo-pavel-durov'"
+R eg|7|fG|44.306
+EE n|s|44.306
+AS ei|bi|7|fG|44.306
+SE dY|n|44.307
+EA cA|7|cB
+EA aQ|7|ej
+M fH:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.71\")>"
+R d1|bU|fH|44.312
+EE n|s|44.312
+AS el|em|bU|fH|44.312
+SE d7|n|44.312
+R d9|7|en|44.318
+EE n|s|44.318
+AS eo|ep|7|en|44.318
+SE dY|n|44.318
+EA cA|7|cB
+EA aQ|7|eq
+M fI:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.72\")>"
+R d1|bU|fI|44.323
+EE n|s|44.323
+AS es|et|bU|fI|44.323
+SE d7|n|44.323
+M fJ:"'4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.'"
+R d9|7|fJ|44.331
+EE n|s|44.331
+AS ev|ew|7|fJ|44.331
+SE bv|n|44.331
+EA bz|bU|fC
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|44.332
+SE cd|n|44.332
+EA cf|C|ex
+R ch|bM|ey|44.332
+EE n|s|44.332
+SE bO|n|44.332
+EA bQ|bM|ey
+EA bR|7|bS
+M fK:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.53\")>"
+R bT|bU|fK|44.343
+EE n|s|44.345
+AS eA|eB|bU|fK|44.345
+SE ed|n|44.345
+EA aO|7|eC
+M fL:"'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oSVMd2G3Oqt7qXGjuuJEHJKGmP42mRJaz_D3gI4-3KYCXlX36DyloQY&s&resize=770%2C513&quality=80'"
+R eg|7|fL|44.35
+EE n|s|44.35
+AS eE|eF|7|fL|44.35
+SE eG|n|44.35
+EA bi|7|fL
+EA ec|7|fF
+AS eI|eJ|7|eK|44.35
+M fM:"2024-08-30 00:42:41,317 - root - INFO - Raw extracted image name: images\n"
+C h|fM|44.351
+SE eM|n|44.351
+M fN:"\"France's_Macron_defends\""
+EA eO|7|fN
+R eQ|7|fN|44.351
+EE n|s|44.351
+AS eR|eS|7|fN|44.351
+M fO:"\"France's_Macron_defends.jpg\""
+AS eT|eJ|7|fO|44.351
+M fP:"\"c:\\\\Users\\\\Joss\\\\Desktop\\\\JocelynDePaz_Thoughtful Challenge\\\\output\\\\France's_Macron_defends.jpg\""
+AS eV|eW|7|fP|44.352
+SE eY|n|44.352
+EA bi|7|fL
+EA e0|7|fP
+EA e1|e2|e3
+EA e4|e2|e5
+EA e6|e2|e5
+EA e7|e2|e5
+EA E|F|G
+M fQ:"2024-08-30 00:42:41,318 - RPA.HTTP - INFO - Using already existing HTTP session\n"
+C h|fQ|44.352
+R fa|fb|fc|44.477
+EE n|s|44.477
+M fR:"2024-08-30 00:42:41,442 - root - INFO - Downloaded image: France's_Macron_defends.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oSVMd2G3Oqt7qXGjuuJEHJKGmP42mRJaz_D3gI4-3KYCXlX36DyloQY&s&resize=770%2C513&quality=80\n"
+C h|fR|44.477
+R fe|7|fO|44.477
+EE n|s|44.477
+AS ff|eJ|7|fO|44.477
+AS fg|fh|ab|fi|44.477
+SE fj|n|44.478
+M fS:"\"France's Macron defends giving citizenship to Telegram CEO Pavel ... 4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.\""
+EA c8|7|fS
+AS fm|fn|aR|fo|44.478
+SE fp|S|44.478
+SE fr|V|44.478
+EA ft|7|fu
+SE fv|dE|44.478
+EA ft|7|fu
+EA c8|7|fS
+M fT:"2024-08-30 00:42:41,443 - root - INFO - Money pattern found in text: France's Macron defends giving citizenship to Telegram CEO Pavel ... 4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.\n"
+C h|fT|44.478
+R fy|e2|e3|44.478
+EE dE|s|44.478
+EE V|s|44.478
+EE S|s|44.478
+EE n|s|44.478
+AS fz|fA|e2|e3|44.479
+M fU:"2024-08-30 00:42:41,444 - root - INFO - Extracted news: France's Macron defends giving citizenship to Telegram CEO Pavel ... - Published On 30 Aug 2024 - 4 hours ago ... Durov granted bail on condition th...\n"
+C h|fU|44.479
+EE V|s|44.479
+SE dT|V|44.479
+M fV:"2"
+EA dV|ab|fV
+SE dt|n|44.479
+EA cA|7|dO
+EA aQ|7|dP
+R dw|aR|dx|44.485
+EE n|s|44.485
+M fW:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.58\")>"
+AS dW|dX|bU|fW|44.485
+SE dY|n|44.485
+EA cA|7|cB
+EA aQ|7|d0
+M fX:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.70\")>"
+R d1|bU|fX|44.49
+EE n|s|44.49
+AS d3|d4|bU|fX|44.491
+SE cH|n|44.491
+EA cJ|7|d5
+M fY:"(<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.70\")>,)"
+EA B|C|fY
+R cM|a0|a1|44.499
+EE n|s|44.499
+SE d7|n|45.506
+M fZ:"\"Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ...\""
+R d9|7|fZ|45.513
+EE n|s|45.513
+AS eb|ec|7|fZ|45.513
+SE ed|n|45.513
+EA aO|7|ef
+M f0:"'https://www.aljazeera.com/economy/2024/8/29/brazils-top-court-threatens-to-ban-elon-musks-x'"
+R eg|7|f0|45.519
+EE n|s|45.52
+AS ei|bi|7|f0|45.52
+SE dY|n|45.52
+EA cA|7|cB
+EA aQ|7|ej
+M f1:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.74\")>"
+R d1|bU|f1|45.524
+EE n|s|45.524
+AS el|em|bU|f1|45.524
+SE d7|n|45.524
+M f2:"'Last update 29 Aug 2024'"
+R d9|7|f2|45.531
+EE n|s|45.531
+AS eo|ep|7|f2|45.531
+SE dY|n|45.531
+EA cA|7|cB
+EA aQ|7|eq
+M f3:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.75\")>"
+R d1|bU|f3|45.536
+EE n|s|45.536
+AS es|et|bU|f3|45.536
+SE d7|n|45.537
+M f4:"'1 day ago ... ... million people. De Moraes has ordered the suspension of more than 100 X accounts in recent years, including some belonging to supporters of ...'"
+R d9|7|f4|45.542
+EE n|s|45.542
+AS ev|ew|7|f4|45.543
+SE bv|n|45.543
+EA bz|bU|fW
+EA bA|ab|bB
+EA bC|bD|bE
+EA bF|a0|a1
+EE n|s|45.543
+SE cd|n|45.543
+EA cf|C|ex
+M f5:"<function visibility_of_element_located.<locals>._predicate at 0x00000112D5C57910>"
+R ch|bM|f5|45.543
+EE n|s|45.543
+SE bO|n|45.543
+EA bQ|bM|f5
+EA bR|7|bS
+M f6:"<selenium.webdriver.remote.webelement.WebElement (session=\"f9a572ad5d9b88382863219bb9ef9b5c\", element=\"f.9202A6B556AF65E6EB05FC5EC8808B75.d.CBD2E076696B3A77033D04167DC626A4.e.76\")>"
+R bT|bU|f6|45.555
+EE n|s|45.555
+AS eA|eB|bU|f6|45.555
+SE ed|n|45.555
+EA aO|7|eC
+M f7:"'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2fib39mkBxT_hqqwmaSpGWL7heAt0PiL_qNWoBbLdWILUodhzCdeTmc&s&resize=770%2C513&quality=80'"
+R eg|7|f7|45.561
+EE n|s|45.561
+AS eE|eF|7|f7|45.561
+SE eG|n|45.561
+EA bi|7|f7
+EA ec|7|fZ
+AS eI|eJ|7|eK|45.561
+M f8:"2024-08-30 00:42:42,528 - root - INFO - Raw extracted image name: images\n"
+C h|f8|45.562
+SE eM|n|45.562
+M f9:"\"Brazil's_top_court\""
+EA eO|7|f9
+R eQ|7|f9|45.562
+EE n|s|45.562
+AS eR|eS|7|f9|45.562
+M ga:"\"Brazil's_top_court.jpg\""
+AS eT|eJ|7|ga|45.562
+M gb:"\"c:\\\\Users\\\\Joss\\\\Desktop\\\\JocelynDePaz_Thoughtful Challenge\\\\output\\\\Brazil's_top_court.jpg\""
+AS eV|eW|7|gb|45.563
+SE eY|n|45.563
+EA bi|7|f7
+EA e0|7|gb
+EA e1|e2|e3
+EA e4|e2|e5
+EA e6|e2|e5
+EA e7|e2|e5
+EA E|F|G
+M gc:"2024-08-30 00:42:42,529 - RPA.HTTP - INFO - Using already existing HTTP session\n"
+C h|gc|45.564
+R fa|fb|fc|45.687
+EE n|s|45.687
+M gd:"2024-08-30 00:42:42,653 - root - INFO - Downloaded image: Brazil's_top_court.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2fib39mkBxT_hqqwmaSpGWL7heAt0PiL_qNWoBbLdWILUodhzCdeTmc&s&resize=770%2C513&quality=80\n"
+C h|gd|45.687
+R fe|7|ga|45.688
+EE n|s|45.688
+AS ff|eJ|7|ga|45.688
+AS fg|fh|ab|fi|45.688
+SE fj|n|45.688
+M ge:"\"Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ... 1 day ago ... ... million people. De Moraes has ordered the suspension of more than 100 X accounts in recent years, including some belonging to supporters of ...\""
+EA c8|7|ge
+AS fm|fn|aR|fo|45.688
+SE fp|S|45.688
+SE fr|V|45.688
+EA ft|7|fu
+EE V|s|45.688
+SE fr|V|45.688
+M gf:"'\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+dollars?'"
+EA ft|7|gf
+EE V|s|45.689
+SE fr|V|45.689
+M gg:"'\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+USD'"
+EA ft|7|gg
+EE V|s|45.689
+SE fr|V|45.689
+M gh:"'\u00a3\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?'"
+EA ft|7|gh
+EE V|s|45.69
+SE fr|V|45.69
+M gi:"'\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+pounds?'"
+EA ft|7|gi
+EE V|s|45.69
+SE fr|V|45.69
+M gj:"'\u20ac\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?'"
+EA ft|7|gj
+EE V|s|45.69
+SE fr|V|45.69
+M gk:"'\\\\d+(?:,\\\\d{3})*(?:\\\\.\\\\d{1,2})?\\\\s+euros?'"
+EA ft|7|gk
+EE V|s|45.691
+EE S|s|45.691
+P gl:fk|l|m|e|348
+R gl|e2|e5|45.691
+EE n|s|45.691
+AS fz|fA|e2|e5|45.691
+M gm:"2024-08-30 00:42:42,657 - root - INFO - Extracted news: Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ... - Last update 29 Aug 2024 - 1 day ago ... ... million people. De Moraes has or...\n"
+C h|gm|45.691
+EE V|s|45.691
+SE dT|V|45.691
+EA dV|ab|ac
+P gn:dD|l|m|e|236
+SE gn|dE|45.691
+EA de|ab|ac
+P go:dJ|l|m|e|237
+SE go|dG|45.692
+EE dE|s|45.692
+EE V|s|45.692
+EE S|s|45.692
+P gp:dJ|l|m|e|298
+M gq:"[{'title': \"Japan's ruling party faces 'generational battle' as it chooses new ...\", 'date': 'Published On 30 Aug 2024', 'description': '4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...', 'image_name': \"Japan's_ruling_party.jpg\", 'search_phrase_count': 1, 'contains_money': True, 'news_url': 'https://www.aljazeera.com/news/2024/8/30/japans-ruling-party-faces-generational-battle-as-it-chooses-new-leader'}, {'title': \"France's Macron defends giving citizenship to Telegram CEO Pavel ...\", 'date': 'Published On 30 Aug 2024', 'description': '4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.', 'image_name': \"France's_Macron_defends.jpg\", 'search_phrase_count': 1, 'contains_money': True, 'news_url': 'https://www.aljazeera.com/economy/2024/8/30/frances-macron-defends-giving-citizenship-to-telegram-ceo-pavel-durov'}, {'title': \"Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ...\", 'date': 'Last update 29 Aug 2024', 'description': '1 day ago ... ... million people. De Moraes has ordered the suspension of more than 100 X accounts in recent years, including some belonging to supporters of ...', 'image_name': \"Brazil's_top_court.jpg\", 'search_phrase_count': 1, 'contains_money': False, 'news_url': 'https://www.aljazeera.com/economy/2024/8/29/brazils-top-court-threatens-to-ban-elon-musks-x'}]"
+R gp|aR|gq|45.692
+EE n|s|45.692
+P gr:I|J|K|e|45
+AS gr|dL|aR|gq|45.692
+M gt:"for data in news_data"
+P gs:gt|J|K|e|48
+SE gs|S|45.692
+M gv:"Step: for data in news_data"
+P gu:gv|J|K|e|48
+SE gu|V|45.692
+M gw:"data"
+M gx:"{'title': \"Japan's ruling party faces 'generational battle' as it chooses new ...\", 'date': 'Published On 30 Aug 2024', 'description': '4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...', 'image_name': \"Japan's_ruling_party.jpg\", 'search_phrase_count': 1, 'contains_money': True, 'news_url': 'https://www.aljazeera.com/news/2024/8/30/japans-ruling-party-faces-generational-battle-as-it-chooses-new-leader'}"
+EA gw|F|gx
+M gz:"Outputs.create"
+M gA:"robocorp.workitems"
+M gB:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\workitems\\__init__.py"
+P gy:gz|gA|gB|e|140
+SE gy|n|45.692
+M gC:"payload"
+EA gC|F|gx
+M gD:"files"
+EA gD|a0|a1
+M gE:"save"
+EA gE|e2|e3
+M gF:"2024-08-30 00:42:42,660 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\devdata\\work-items-out\\run-1\\work-items.json\n"
+C h|gF|45.695
+P gG:gz|gA|gB|e|174
+M gH:"Output"
+M gI:"Output[id=1,parent=0,payload={'title': \"Japan's ruling par ... le-as-it-chooses-new-leader'},files=[],saved=True]"
+R gG|gH|gI|45.695
+EE n|s|45.696
+M gJ:"2024-08-30 00:42:42,661 - root - INFO - Work item created for news: Japan's ruling party faces 'generational battle' as it chooses new ...\n"
+C h|gJ|45.696
+EE V|s|45.696
+SE gu|V|45.696
+M gK:"{'title': \"France's Macron defends giving citizenship to Telegram CEO Pavel ...\", 'date': 'Published On 30 Aug 2024', 'description': '4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.', 'image_name': \"France's_Macron_defends.jpg\", 'search_phrase_count': 1, 'contains_money': True, 'news_url': 'https://www.aljazeera.com/economy/2024/8/30/frances-macron-defends-giving-citizenship-to-telegram-ceo-pavel-durov'}"
+EA gw|F|gK
+SE gy|n|45.696
+EA gC|F|gK
+EA gD|a0|a1
+EA gE|e2|e3
+M gL:"2024-08-30 00:42:42,663 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\devdata\\work-items-out\\run-1\\work-items.json\n"
+C h|gL|45.697
+M gM:"Output[id=2,parent=0,payload={'title': \"France's Macron de ... to-telegram-ceo-pavel-durov'},files=[],saved=True]"
+R gG|gH|gM|45.698
+EE n|s|45.698
+M gN:"2024-08-30 00:42:42,663 - root - INFO - Work item created for news: France's Macron defends giving citizenship to Telegram CEO Pavel ...\n"
+C h|gN|45.698
+EE V|s|45.698
+SE gu|V|45.698
+M gO:"{'title': \"Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ...\", 'date': 'Last update 29 Aug 2024', 'description': '1 day ago ... ... million people. De Moraes has ordered the suspension of more than 100 X accounts in recent years, including some belonging to supporters of ...', 'image_name': \"Brazil's_top_court.jpg\", 'search_phrase_count': 1, 'contains_money': False, 'news_url': 'https://www.aljazeera.com/economy/2024/8/29/brazils-top-court-threatens-to-ban-elon-musks-x'}"
+EA gw|F|gO
+SE gy|n|45.698
+EA gC|F|gO
+EA gD|a0|a1
+EA gE|e2|e3
+M gP:"2024-08-30 00:42:42,665 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\devdata\\work-items-out\\run-1\\work-items.json\n"
+C h|gP|45.699
+M gQ:"Output[id=3,parent=0,payload={'title': \"Brazil's top court ... reatens-to-ban-elon-musks-x'},files=[],saved=True]"
+R gG|gH|gQ|45.699
+EE n|s|45.699
+M gR:"2024-08-30 00:42:42,665 - root - INFO - Work item created for news: Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ...\n"
+C h|gR|45.699
+EE V|s|45.7
+EE S|s|45.7
+M gT:"Aljazeera.save_to_excel"
+P gS:gT|l|m|e|350
+SE gS|n|45.7
+EA dL|aR|gq
+P gU:gT|l|m|e|352
+M gV:"output_path"
+M gW:"'c:\\\\Users\\\\Joss\\\\Desktop\\\\JocelynDePaz_Thoughtful Challenge\\\\output\\\\task_extracted.xlsx'"
+AS gU|gV|7|gW|45.7
+P gX:gT|l|m|e|354
+M gY:"sheet_name"
+M gZ:"'Sheet'"
+AS gX|gY|7|gZ|45.7
+P g0:gT|l|m|e|355
+M g1:"'News'"
+AS g0|gY|7|g1|45.7
+M g3:"else (to if os.path.exists(output_path))"
+P g2:g3|l|m|e|357
+M g4:"ELSE_SCOPE"
+SE g2|g4|45.701
+EA gV|7|gW
+M g6:"Files.create_workbook"
+P g5:g6|v|w|e|220
+SE g5|n|45.701
+M g7:"path"
+EA g7|7|gW
+M g8:"fmt"
+M g9:"'xlsx'"
+EA g8|7|g9
+EA gY|a0|a1
+P ha:g6|v|w|e|308
+M hb:"XlsxWorkbook"
+M hc:"<RPA.Excel.Files.XlsxWorkbook object at 0x00000112CF935960>"
+R ha|hb|hc|45.703
+EE n|s|45.703
+M hd:"2024-08-30 00:42:42,669 - root - INFO - Created new Excel workbook at c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\output\\task_extracted.xlsx\n"
+C h|hd|45.703
+EE g4|s|45.703
+SE g5|n|45.703
+EA g7|7|gW
+EA g8|7|g9
+EA gY|a0|a1
+M he:"2024-08-30 00:42:42,669 - RPA.Excel.Files - INFO - Closing workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x00000112CF935960>\n"
+C h|he|45.704
+M hf:"<RPA.Excel.Files.XlsxWorkbook object at 0x00000112D28E9150>"
+R ha|hb|hf|45.706
+EE n|s|45.706
+M hg:"2024-08-30 00:42:42,671 - root - INFO - Created new Excel workbook at c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\output\\task_extracted.xlsx\n"
+C h|hg|45.706
+P hh:gT|l|m|e|367
+M hi:"processed_data"
+AS hh|hi|aR|dM|45.706
+M hk:"for item in news_data"
+P hj:hk|l|m|e|368
+SE hj|S|45.706
+M hm:"Step: for item in news_data"
+P hl:hm|l|m|e|368
+SE hl|V|45.706
+EA W|F|gx
+EE V|s|45.707
+SE hl|V|45.707
+EA W|F|gK
+EE V|s|45.707
+SE hl|V|45.707
+EA W|F|gO
+EE V|s|45.707
+EE S|s|45.707
+M ho:"Files.worksheet_exists"
+P hn:ho|v|w|e|465
+SE hn|n|45.707
+EA aO|7|g1
+P hp:ho|v|w|e|485
+R hp|e2|e5|45.707
+EE n|s|45.707
+M hr:"Files.create_worksheet"
+P hq:hr|v|w|e|539
+SE hq|n|45.707
+EA aO|7|g1
+M hs:"content"
+EA hs|a0|a1
+M ht:"exist_ok"
+EA ht|e2|e5
+M hu:"header"
+EA hu|e2|e5
+EE n|s|45.708
+M hw:"Files.set_active_worksheet"
+P hv:hw|v|w|e|507
+SE hv|n|45.708
+EA aQ|7|g1
+EE n|s|45.708
+M hx:"2024-08-30 00:42:42,674 - root - INFO - Created and set active worksheet 'News'\n"
+C h|hx|45.708
+M hz:"Files.append_rows_to_worksheet"
+P hy:hz|v|w|e|715
+SE hy|n|45.709
+EA hs|aR|gq
+EA aO|a0|a1
+EA hu|e2|e3
+EA aW|a0|a1
+M hA:"formatting_as_empty"
+EA hA|e2|e5
+P hB:hz|v|w|e|786
+R hB|a0|a1|45.71
+EE n|s|45.711
+M hD:"Files.save_workbook"
+P hC:hD|v|w|e|380
+SE hC|n|45.711
+EA g7|7|gW
+P hE:hD|v|w|e|438
+R hE|a0|a1|45.737
+EE n|s|45.737
+M hF:"2024-08-30 00:42:42,702 - root - INFO - Saved data to Excel workbook at c:\\Users\\Joss\\Desktop\\JocelynDePaz_Thoughtful Challenge\\output\\task_extracted.xlsx\n"
+C h|hF|45.737
+EE n|s|45.737
+M hH:"Aljazeera.close_browser"
+P hG:hH|l|m|e|403
+SE hG|n|45.737
+M hJ:"CustomSelenium.close_browser"
+P hI:hJ|q|r|e|67
+SE hI|n|45.738
+M hL:"CustomSelenium.driver_quit"
+P hK:hL|q|r|e|47
+SE hK|n|45.738
+M hN:"if self.driver"
+P hM:hN|q|r|e|48
+SE hM|dE|45.738
+M hO:"self"
+M hP:"<CustomSelenium.CustomSelenium object at 0x00000112D5129210>"
+EA hO|q|hP
+M hR:"ChromiumDriver.quit"
+M hS:"selenium.webdriver.chromium.webdriver"
+M hT:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py"
+P hQ:hR|hS|hT|e|183
+SE hQ|n|45.738
+EE n|s|47.91
+EE dE|s|47.91
+EE n|s|47.91
+M hU:"2024-08-30 00:42:44,876 - CustomSelenium - INFO - Browser closed successfully\n"
+C h|hU|47.911
+EE n|s|47.911
+M hV:"2024-08-30 00:42:44,877 - root - INFO - Closed browser successfully\n"
+C h|hV|47.911
+EE n|s|47.912
+M hX:"Input.done"
+P hW:hX|1|2|e|448
+SE hW|n|47.912
+M hY:"2024-08-30 00:42:44,877 - robocorp.workitems._adapters._file - INFO - Releasing item '0' with COMPLETED state and exception: None\n"
+C h|hY|47.912
+EE n|s|47.912
+EE V|s|47.912
+EE S|s|47.912
+EE n|s|47.912
+C O|I|47.913
+M hZ:" status: "
+C f|hZ|47.913
+M h0:"PASS\n"
+C f|h0|47.913
+M h1:"================================================================================\n"
+C f|h1|47.913
+ET s|e|47.913
+M h3:"Teardown tasks"
+M h4:"teardown"
+P h2:h3|h4|e|e|0
+ST h2|47.913
+M h5:"Process snapshot"
+SPS h5|47.913
+M h6:"System information:\nMemory: Total: 31.4 G, Available: 17.1 G, Used: 45.5 %\nCPUs: 12"
+P h7:e|e|e|e|0
+L I|h6|h7|0|48.111
+M h8:"Current Process: python.exe (pid: 11340, status: running)\nCommand Line: C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\python.exe -m robocorp.tasks run tasks.py\nStarted: 00:41:55\nParent pid: 30640\nResident Set Size: 85.9 M\nVirtual Memory Size: 68.9 M"
+L I|h8|h7|0|48.126
+M h9:"OutputToPortThread|Thread ID: 26196 (daemon)"
+STD h9|48.126
+M ia:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\threading.py"
+M ib:"_bootstrap"
+M ic:"self._bootstrap_inner()"
+TBE ia|973|ib|ic
+M id:"Thread"
+M ie:"<Thread(OutputToPortThread, started daemon 26196)>"
+TBV hO|id|ie
+M if:"_bootstrap_inner"
+M ig:"self.run()"
+TBE ia|1016|if|ig
+TBV hO|id|ie
+M ih:"run"
+M ii:"self._target(*self._args, **self._kwargs)"
+TBE ia|953|ih|ii
+TBV hO|id|ie
+M ij:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\tasks\\_log_output_setup.py"
+M ik:"write_in_thread"
+M il:"msg = q.get()"
+TBE ij|73|ik|il
+M im:"msg"
+M in:"'ST h2|47.904\\n'"
+TBV im|7|in
+M io:"client_socket"
+M ip:"socket"
+M iq:"<socket.socket fd=792, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59295), raddr=('127.0.0.1', 59143)>"
+TBV io|ip|iq
+M ir:"log"
+M is:"module"
+M it:"<module 'robocorp.log' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
+TBV ir|is|it
+M iu:"port_in_env"
+M iv:"'59143'"
+TBV iu|7|iv
+M iw:"q"
+M ix:"Queue"
+M iy:"<queue.Queue object at 0x00000112D064F100>"
+TBV iw|ix|iy
+M iz:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\queue.py"
+M iA:"get"
+M iB:"self.not_empty.wait()"
+TBE iz|171|iA|iB
+TBV hO|ix|iy
+M iC:"block"
+TBV iC|e2|e3
+TBV bA|a0|a1
+M iD:"wait"
+M iE:"waiter.acquire()"
+TBE ia|320|iD|iE
+M iF:"Condition"
+M iG:"<Condition(<unlocked _thread.lock object at 0x00000112D290A140>, 1)>"
+TBV hO|iF|iG
+TBV bA|a0|a1
+M iH:"waiter"
+M iI:"lock"
+M iJ:"<locked _thread.lock object at 0x00000112D50AF600>"
+TBV iH|iI|iJ
+M iK:"saved_state"
+TBV iK|a0|a1
+M iL:"gotit"
+TBV iL|e2|e5
+ETD 48.128
+M iM:"MainThread|Thread ID: 7272 (non daemon)"
+STD iM|48.128
+M iN:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\log\\__init__.py"
+M iO:"process_snapshot"
+M iP:"robo_logger.process_snapshot()"
+TBE iN|270|iO|iP
+M iQ:"logger_instances"
+M iR:"{<robocorp.log._robo_logger._RoboLogger object at 0x00000112CF9A8190>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x00000112D2AF5C90>: 1}"
+TBV iQ|F|iR
+M iS:"robo_logger"
+M iT:"_RoboLogger"
+M iU:"<robocorp.log._robo_logger._RoboLogger object at 0x00000112CF9A8190>"
+TBV iS|iT|iU
+M iV:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M iW:"new_func"
+M iX:"return func(self, *args, **kwargs)"
+TBE iV|20|iW|iX
+TBV hO|iT|iU
+TBV B|C|D
+TBV E|F|G
+M iY:"func"
+M iZ:"<function _RoboLogger.process_snapshot at 0x00000112D2AD97E0>"
+TBV iY|bM|iZ
+M i0:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE iV|416|iO|i0
+TBV hO|iT|iU
+M i1:"hide_vars"
+TBV i1|e2|e5
+M i2:"C:\\ProgramData\\robocorp\\ht\\3e68844_b1f3c24_1c0bc041\\lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M i3:"self._dump_threads(hide_vars)"
+TBE i2|748|iO|i3
+TBV i1|e2|e5
+TBV ir|is|it
+M i4:"entry_id"
+M i5:"'ps_0'"
+TBV i4|7|i5
+M i6:"entry_type"
+M i7:"'process_snapshot'"
+TBV i6|7|i7
+M i8:"psutil"
+M i9:"<module 'psutil' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV i8|is|i9
+M ja:"AccessDenied"
+M jb:"type"
+M jc:"<class 'psutil.AccessDenied'>"
+TBV ja|jb|jc
+M jd:"NoSuchProcess"
+M je:"<class 'psutil.NoSuchProcess'>"
+TBV jd|jb|je
+M jf:"ZombieProcess"
+M jg:"<class 'psutil.ZombieProcess'>"
+TBV jf|jb|jg
+M jh:"curr_process"
+M ji:"Process"
+M jj:"psutil.Process(pid=11340, name='python.exe', status='running', started='00:41:55')"
+TBV jh|ji|jj
+M jk:"log_info"
+M jl:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x00000112D5C57EB0>"
+TBV jk|bM|jl
+M jm:"memory_info"
+M jn:"'Total: 31.4 G, Available: 17.1 G, Used: 45.5 %'"
+TBV jm|7|jn
+M jo:"child_i"
+TBV jo|ab|df
+M jp:"child"
+TBV jp|ji|jj
+M jq:"'python.exe'"
+TBV aO|7|jq
+M jr:"status"
+M js:"'running'"
+TBV jr|7|js
+M jt:"create_time"
+M ju:"'00:41:55'"
+TBV jt|7|ju
+M jv:"ppid"
+M jw:"'30640'"
+TBV jv|7|jw
+M jx:"cmdline"
+M jy:"'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\python.exe -m robocorp.tasks run tasks.py'"
+TBV jx|7|jy
+M jz:"rss"
+M jA:"'85.9 M'"
+TBV jz|7|jA
+M jB:"vms"
+M jC:"'68.9 M'"
+TBV jB|7|jC
+M jD:"proc_memory_info"
+M jE:"pmem"
+M jF:"pmem(rss=90066944, vms=72216576, num_page_faults=95567, peak_wset=90578944, wset=90066944, peak_paged_pool=231256, paged_pool=231080, peak_nonpaged_pool=97748, nonpaged_pool=33112, pagefile=72216576, peak_pagefile=73408512, private=72216576)"
+TBV jD|jE|jF
+M jG:"'Current Process: python.exe (pid: 11340, status: running)\\nCommand Line: C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\python.exe -m robocorp.tasks run tasks.py\\nStarted: 00:41:55\\nParent pid: 30640\\nResident Set Size: 85.9 M\\nVirtual Memory Size: 68.9 M'"
+TBV bR|7|jG
+M jH:"_RoboOutputImpl"
+M jI:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x00000112D062B1C0>"
+TBV hO|jH|jI
+M jJ:"_dump_threads"
+M jK:"stack.append((f, f.f_lineno))"
+TBE i2|769|jJ|jK
+TBV hO|jH|jI
+TBV i1|e2|e5
+M jL:"thread_id"
+M jM:"7272"
+TBV jL|ab|jM
+M jN:"frame"
+M jO:"<frame at 0x00000112D5E17440, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
+TBV jN|jN|jO
+M jP:"thread"
+M jQ:"_MainThread"
+M jR:"<_MainThread(MainThread, started 7272)>"
+TBV jP|jQ|jR
+M jS:"'MainThread|Thread ID: 7272 (non daemon)'"
+TBV ec|7|jS
+M jT:"f"
+M jU:"<frame at 0x00000112D09319C0, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
+TBV jT|jN|jU
+M jV:"stack"
+M jW:"[(<frame at 0x00000112D5E21260, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x00000112D296D440, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x00000112D5DBDD80, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x00000112D3E21520, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x00000112D5E17440, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\3e68844_b1f3c24_1c0bc041\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV jV|aR|jW
+ETD 48.141
+EPS 48.141
+ET s|e|48.18
+ER s|48.18

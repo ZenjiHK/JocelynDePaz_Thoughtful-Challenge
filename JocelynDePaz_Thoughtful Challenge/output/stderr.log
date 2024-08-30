@@ -1,0 +1,38 @@
+2024-08-30 00:42:02,973 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+2024-08-30 00:42:04,888 - root - INFO - Configured scraper with search_phrase: 'Million' and max_results: 3
+2024-08-30 00:42:33,887 - root - INFO - Opened site: https://www.aljazeera.com/
+2024-08-30 00:42:33,956 - root - INFO - Closed cookie consent banner by clicking 'Allow all'.
+2024-08-30 00:42:34,067 - root - INFO - Clicked search button
+2024-08-30 00:42:35,032 - root - INFO - Ads container hidden.
+2024-08-30 00:42:35,033 - root - INFO - Searched news with phrase: Million
+2024-08-30 00:42:35,644 - root - INFO - Sorted results by date
+2024-08-30 00:42:36,723 - root - INFO - Total articles loaded: 10
+2024-08-30 00:42:39,840 - root - INFO - Raw extracted image name: images
+2024-08-30 00:42:39,842 - RPA.HTTP - INFO - Creating a new HTTP session
+2024-08-30 00:42:39,843 - RobotFramework - INFO - Creating Session using : alias=rpasession_alias.httpsencrypted-tbn0.gstatic.com, url=https://encrypted-tbn0.gstatic.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 
+2024-08-30 00:42:40,233 - root - INFO - Downloaded image: Japan's_ruling_party.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lUpQwVzDceHqfK15cjOK61afUO20mB47GScQFw5r2yVDbqkSpmMqpPyv&s&resize=770%2C513&quality=80
+2024-08-30 00:42:40,234 - root - INFO - Money pattern found in text: Japan's ruling party faces 'generational battle' as it chooses new ... 4 hours ago ... ... million yen (about $4.15m) in campaign money, storing it in illegal slush funds. Ten LDP lawmakers and their aides were indicted in January ...
+2024-08-30 00:42:40,235 - root - INFO - Extracted news: Japan's ruling party faces 'generational battle' as it chooses new ... - Published On 30 Aug 2024 - 4 hours ago ... ... million yen (about $4.15m) in ...
+2024-08-30 00:42:41,317 - root - INFO - Raw extracted image name: images
+2024-08-30 00:42:41,318 - RPA.HTTP - INFO - Using already existing HTTP session
+2024-08-30 00:42:41,442 - root - INFO - Downloaded image: France's_Macron_defends.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oSVMd2G3Oqt7qXGjuuJEHJKGmP42mRJaz_D3gI4-3KYCXlX36DyloQY&s&resize=770%2C513&quality=80
+2024-08-30 00:42:41,443 - root - INFO - Money pattern found in text: France's Macron defends giving citizenship to Telegram CEO Pavel ... 4 hours ago ... Durov granted bail on condition that he pay a five-million-euro ($5.56m) deposit and not leave France. Published On 28 Aug 202428 Aug 2024.
+2024-08-30 00:42:41,444 - root - INFO - Extracted news: France's Macron defends giving citizenship to Telegram CEO Pavel ... - Published On 30 Aug 2024 - 4 hours ago ... Durov granted bail on condition th...
+2024-08-30 00:42:42,528 - root - INFO - Raw extracted image name: images
+2024-08-30 00:42:42,529 - RPA.HTTP - INFO - Using already existing HTTP session
+2024-08-30 00:42:42,653 - root - INFO - Downloaded image: Brazil's_top_court.jpg from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2fib39mkBxT_hqqwmaSpGWL7heAt0PiL_qNWoBbLdWILUodhzCdeTmc&s&resize=770%2C513&quality=80
+2024-08-30 00:42:42,657 - root - INFO - Extracted news: Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ... - Last update 29 Aug 2024 - 1 day ago ... ... million people. De Moraes has or...
+2024-08-30 00:42:42,660 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\devdata\work-items-out\run-1\work-items.json
+2024-08-30 00:42:42,661 - root - INFO - Work item created for news: Japan's ruling party faces 'generational battle' as it chooses new ...
+2024-08-30 00:42:42,663 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\devdata\work-items-out\run-1\work-items.json
+2024-08-30 00:42:42,663 - root - INFO - Work item created for news: France's Macron defends giving citizenship to Telegram CEO Pavel ...
+2024-08-30 00:42:42,665 - robocorp.workitems._adapters._file - INFO - Saved output work items: C:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\devdata\work-items-out\run-1\work-items.json
+2024-08-30 00:42:42,665 - root - INFO - Work item created for news: Brazil's top court threatens to ban Elon Musk's X | Social Media | Al ...
+2024-08-30 00:42:42,669 - root - INFO - Created new Excel workbook at c:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\output\task_extracted.xlsx
+2024-08-30 00:42:42,669 - RPA.Excel.Files - INFO - Closing workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x00000112CF935960>
+2024-08-30 00:42:42,671 - root - INFO - Created new Excel workbook at c:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\output\task_extracted.xlsx
+2024-08-30 00:42:42,674 - root - INFO - Created and set active worksheet 'News'
+2024-08-30 00:42:42,702 - root - INFO - Saved data to Excel workbook at c:\Users\Joss\Desktop\JocelynDePaz_Thoughtful Challenge\output\task_extracted.xlsx
+2024-08-30 00:42:44,876 - CustomSelenium - INFO - Browser closed successfully
+2024-08-30 00:42:44,877 - root - INFO - Closed browser successfully
+2024-08-30 00:42:44,877 - robocorp.workitems._adapters._file - INFO - Releasing item '0' with COMPLETED state and exception: None
